@@ -1,0 +1,276 @@
+package com.br.henrique.votobus.Banco;
+
+import com.br.henrique.votobus.TO.horario;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by Henrique on 15/02/2016.
+ */
+public class VilaNovaIrineu {
+    public String[] diasemanda = {"SEG/SEX", "SABADO", "DOMINGO"};
+    public String vigencia = "13/05/2016";
+
+    public List<horario> segSexI() {
+        List<horario> lst = new ArrayList<horario>();
+        lst.add(new horario("TERMINAL"));
+        lst.add(new horario("04:48","Não atende Pró-morar"));
+        lst.add(new horario("05:10","Não atende Pró-morar"));
+        lst.add(new horario("05:37","Não atende Pró-morar"));
+        lst.add(new horario("05:56","Não atende Pró-morar"));
+        lst.add(new horario("06:21"));
+        lst.add(new horario("06:39"));
+        lst.add(new horario("06:57"));
+        lst.add(new horario("07:15"));
+        lst.add(new horario("07:33"));
+        lst.add(new horario("07:51"));
+        lst.add(new horario("08:09"));
+        lst.add(new horario("08:27"));
+        lst.add(new horario("08:45"));
+        lst.add(new horario("09:10"));
+        lst.add(new horario("09:35"));
+        lst.add(new horario("10:03"));
+        lst.add(new horario("10:30"));
+        lst.add(new horario("10:55"));
+        lst.add(new horario("11:20"));
+        lst.add(new horario("11:45"));
+        lst.add(new horario("12:10"));
+        lst.add(new horario("12:35"));
+        lst.add(new horario("13:00"));
+        lst.add(new horario("13:25"));
+        lst.add(new horario("13:50"));
+        lst.add(new horario("14:15"));
+        lst.add(new horario("14:40"));
+        lst.add(new horario("15:05"));
+        lst.add(new horario("15:23"));
+        lst.add(new horario("15:41"));
+        lst.add(new horario("15:59"));
+        lst.add(new horario("16:17"));
+        lst.add(new horario("16:35"));
+        lst.add(new horario("16:53"));
+        lst.add(new horario("17:11"));
+        lst.add(new horario("17:29"));
+        lst.add(new horario("17:47"));
+        lst.add(new horario("18:05"));
+        lst.add(new horario("18:23"));
+        lst.add(new horario("18:41"));
+        lst.add(new horario("18:59"));
+        lst.add(new horario("19:17"));
+        lst.add(new horario("19:47"));
+        lst.add(new horario("20:20"));
+        lst.add(new horario("20:53"));
+        lst.add(new horario("21:26"));
+        lst.add(new horario("21:59"));
+        lst.add(new horario("22:32"));
+        lst.add(new horario("23:05"));
+        lst.add(new horario("23:36","Atendimento ao Bairro Morros pela linha Vila Nova/Promorar"));
+        lst.add(new horario("00:05"));
+        return lst;
+    }
+
+    public List<horario> segSexO() {
+        List<horario> lst = new ArrayList<horario>();
+        lst.add(new horario("BAIRRO"));
+        lst.add(new horario("04:15","Viagem passando pela Fiação Alpina"));
+        lst.add(new horario("04:40"));
+        lst.add(new horario("05:05"));
+        lst.add(new horario("05:24"));
+        lst.add(new horario("05:42"));
+        lst.add(new horario("06:00"));
+        lst.add(new horario("06:18"));
+        lst.add(new horario("06:36"));
+        lst.add(new horario("06:54"));
+        lst.add(new horario("07:12"));
+        lst.add(new horario("07:30"));
+        lst.add(new horario("07:48"));
+        lst.add(new horario("08:06"));
+        lst.add(new horario("08:24"));
+        lst.add(new horario("08:42"));
+        lst.add(new horario("09:00"));
+        lst.add(new horario("09:25"));
+        lst.add(new horario("09:50"));
+        lst.add(new horario("10:15"));
+        lst.add(new horario("10:40"));
+        lst.add(new horario("11:05"));
+        lst.add(new horario("11:30"));
+        lst.add(new horario("11:55"));
+        lst.add(new horario("12:20"));
+        lst.add(new horario("12:45"));
+        lst.add(new horario("13:10"));
+        lst.add(new horario("13:35"));
+        lst.add(new horario("14:00"));
+        lst.add(new horario("14:25"));
+        lst.add(new horario("14:45"));
+        lst.add(new horario("15:15"));
+        lst.add(new horario("15:37"));
+        lst.add(new horario("15:55"));
+        lst.add(new horario("16:13"));
+        lst.add(new horario("16:31"));
+        lst.add(new horario("16:49"));
+        lst.add(new horario("17:07"));
+        lst.add(new horario("17:25"));
+        lst.add(new horario("17:43"));
+        lst.add(new horario("18:01"));
+        lst.add(new horario("18:19"));
+        lst.add(new horario("18:37"));
+        lst.add(new horario("18:53"));
+        lst.add(new horario("19:11"));
+        lst.add(new horario("19:44"));
+        lst.add(new horario("20:17"));
+        lst.add(new horario("20:50"));
+        lst.add(new horario("21:23"));
+        lst.add(new horario("21:56"));
+        lst.add(new horario("22:29"));
+        lst.add(new horario("23:02"));
+        lst.add(new horario("23:35"));
+        return lst;
+    }
+
+    public List<horario> sabadoI() {
+        List<horario> lst = new ArrayList<horario>();
+        lst.add(new horario("TERMINAL"));
+        lst.add(new horario("04:50"));
+        lst.add(new horario("05:20"));
+        lst.add(new horario("05:55"));
+        lst.add(new horario("06:10"));
+        lst.add(new horario("06:35"));
+        lst.add(new horario("07:00"));
+        lst.add(new horario("07:15"));
+        lst.add(new horario("07:40"));
+        lst.add(new horario("08:05"));
+        lst.add(new horario("08:25"));
+        lst.add(new horario("08:50"));
+        lst.add(new horario("09:15"));
+        lst.add(new horario("09:35"));
+        lst.add(new horario("10:00"));
+        lst.add(new horario("10:25"));
+        lst.add(new horario("10:45"));
+        lst.add(new horario("11:10"));
+        lst.add(new horario("11:35"));
+        lst.add(new horario("11:55"));
+        lst.add(new horario("12:20"));
+        lst.add(new horario("12:45"));
+        lst.add(new horario("13:05"));
+        lst.add(new horario("13:35"));
+        lst.add(new horario("13:55"));
+        lst.add(new horario("14:45"));
+        lst.add(new horario("15:20"));
+        lst.add(new horario("15:55"));
+        lst.add(new horario("16:30"));
+        lst.add(new horario("17:05"));
+        lst.add(new horario("17:40"));
+        lst.add(new horario("18:15"));
+        lst.add(new horario("18:50"));
+        lst.add(new horario("19:25"));
+        lst.add(new horario("20:00"));
+        lst.add(new horario("20:35"));
+        lst.add(new horario("21:10"));
+        lst.add(new horario("21:45"));
+        lst.add(new horario("22:20"));
+        lst.add(new horario("22:55"));
+        lst.add(new horario("23:30"));
+        lst.add(new horario("00:05"));
+        return lst;
+    }
+
+    public List<horario> sabadoO() {
+        List<horario> lst = new ArrayList<horario>();
+        lst.add(new horario("BAIRRO"));
+        lst.add(new horario("04:15", "Viagem passando pela Fiação Alpina."));
+        lst.add(new horario("04:50"));
+        lst.add(new horario("05:20"));
+        lst.add(new horario("05:40"));
+        lst.add(new horario("06:00"));
+        lst.add(new horario("06:25"));
+        lst.add(new horario("06:40"));
+        lst.add(new horario("07:05"));
+        lst.add(new horario("07:30"));
+        lst.add(new horario("07:50"));
+        lst.add(new horario("08:15"));
+        lst.add(new horario("08:40"));
+        lst.add(new horario("09:00"));
+        lst.add(new horario("09:25"));
+        lst.add(new horario("09:50"));
+        lst.add(new horario("10:10"));
+        lst.add(new horario("10:35"));
+        lst.add(new horario("11:00"));
+        lst.add(new horario("11:20"));
+        lst.add(new horario("11:45"));
+        lst.add(new horario("12:10"));
+        lst.add(new horario("12:30"));
+        lst.add(new horario("12:55"));
+        lst.add(new horario("13:20"));
+        lst.add(new horario("13:40"));
+        lst.add(new horario("14:10"));
+        lst.add(new horario("14:45"));
+        lst.add(new horario("15:20"));
+        lst.add(new horario("15:55"));
+        lst.add(new horario("16:30"));
+        lst.add(new horario("17:05"));
+        lst.add(new horario("17:40"));
+        lst.add(new horario("18:15"));
+        lst.add(new horario("18:50"));
+        lst.add(new horario("19:25"));
+        lst.add(new horario("20:00"));
+        lst.add(new horario("20:35"));
+        lst.add(new horario("21:10"));
+        lst.add(new horario("21:45"));
+        lst.add(new horario("22:20"));
+        lst.add(new horario("22:55"));
+        lst.add(new horario("23:30"));
+        return lst;
+    }
+
+    public List<horario> domingoI() {
+        List<horario> lst = new ArrayList<horario>();
+        lst.add(new horario("TERMINAL"));
+        lst.add(new horario("04:50"));
+        lst.add(new horario("05:50"));
+        lst.add(new horario("06:50"));
+        lst.add(new horario("07:50"));
+        lst.add(new horario("08:50"));
+        lst.add(new horario("09:50"));
+        lst.add(new horario("10:50"));
+        lst.add(new horario("11:50"));
+        lst.add(new horario("12:50"));
+        lst.add(new horario("13:50"));
+        lst.add(new horario("14:50"));
+        lst.add(new horario("15:50"));
+        lst.add(new horario("16:50"));
+        lst.add(new horario("17:50"));
+        lst.add(new horario("18:50"));
+        lst.add(new horario("19:50"));
+        lst.add(new horario("20:50"));
+        lst.add(new horario("21:50"));
+        lst.add(new horario("22:50"));
+        lst.add(new horario("00:05"));
+        return lst;
+    }
+
+    public List<horario> domingoO() {
+        List<horario> lst = new ArrayList<horario>();
+        lst.add(new horario("BAIRRO"));
+        lst.add(new horario("04:15", "Viagem passando pela Fiação Alpina."));
+        lst.add(new horario("05:15"));
+        lst.add(new horario("06:15"));
+        lst.add(new horario("07:15"));
+        lst.add(new horario("08:15"));
+        lst.add(new horario("09:15"));
+        lst.add(new horario("10:15"));
+        lst.add(new horario("11:15"));
+        lst.add(new horario("12:15"));
+        lst.add(new horario("13:15"));
+        lst.add(new horario("14:15"));
+        lst.add(new horario("15:15"));
+        lst.add(new horario("16:15"));
+        lst.add(new horario("17:15"));
+        lst.add(new horario("18:15"));
+        lst.add(new horario("19:15"));
+        lst.add(new horario("20:15"));
+        lst.add(new horario("21:15"));
+        lst.add(new horario("22:15"));
+        lst.add(new horario("23:20"));
+        return lst;
+    }
+}

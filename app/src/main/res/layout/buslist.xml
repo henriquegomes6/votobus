@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:paddingBottom="1dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp">
+
+    <TextView
+        android:id="@+id/TVnumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16.98sp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/primary_text"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:id="@+id/TVnome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/TVnumero"
+        android:textColor="@color/primary_text"
+        android:textSize="16.98sp" />
+
+    <TextView
+        android:id="@+id/TVid"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/TVio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVnome"
+        android:layout_toRightOf="@+id/TVnumero"
+        android:textColor="@color/secondary_text"
+        android:textSize="10sp" />
+</RelativeLayout>
