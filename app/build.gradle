@@ -8,8 +8,8 @@ android {
         applicationId "com.br.henrique.votobus"
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 25
-        versionName "1.4.8.1"
+        versionCode 26
+        versionName "1.4.8.3"
 
     }
     buildTypes {

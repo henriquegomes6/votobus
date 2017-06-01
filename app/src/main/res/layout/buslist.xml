@@ -13,7 +13,7 @@
         android:id="@+id/TVnumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16.98sp"
+        android:textSize="18sp"
         android:layout_centerVertical="true"
         android:textColor="@color/primary_text"
         android:layout_marginRight="5dp"/>
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/TVnumero"
         android:textColor="@color/primary_text"
-        android:textSize="16.98sp" />
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/TVid"
@@ -37,5 +37,5 @@
         android:layout_below="@+id/TVnome"
         android:layout_toRightOf="@+id/TVnumero"
         android:textColor="@color/secondary_text"
-        android:textSize="10sp" />
+        android:textSize="12sp" />
 </RelativeLayout>

@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class VilaGarcia {
     public String[] diasemanda = {"SEG/SEX", "SABADO", "DOMINGO"};
-    public String vigencia = "22/03/2015";
+    public String vigencia = "01/06/2017";
 
     public List<horario> segSexI() {
         List<horario> lst = new ArrayList<horario>();
@@ -35,15 +35,15 @@ public class VilaGarcia {
         lst.add(new horario("15:10"));
         lst.add(new horario("15:45"));
         lst.add(new horario("16:25"));
-        lst.add(new horario("16:55"));
+        lst.add(new horario("17:00"));
         lst.add(new horario("17:35"));
         lst.add(new horario("18:05"));
         lst.add(new horario("18:40"));
         lst.add(new horario("19:15"));
         lst.add(new horario("19:50"));
-        lst.add(new horario("20:30"));
+        lst.add(new horario("20:35"));
         lst.add(new horario("21:00"));
-        lst.add(new horario("21:30"));
+        lst.add(new horario("21:35"));
         lst.add(new horario("22:35"));
         lst.add(new horario("23:35"));
         return lst;
@@ -73,7 +73,7 @@ public class VilaGarcia {
         lst.add(new horario("15:10"));
         lst.add(new horario("15:45"));
         lst.add(new horario("16:20"));
-        lst.add(new horario("16:55"));
+        lst.add(new horario("17:00"));
         lst.add(new horario("17:30"));
         lst.add(new horario("18:05"));
         lst.add(new horario("18:40"));

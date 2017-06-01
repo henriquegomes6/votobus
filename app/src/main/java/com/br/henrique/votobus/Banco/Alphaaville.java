@@ -10,13 +10,13 @@ import java.util.List;
  */
 public class Alphaaville {
     public String[] diasemanda = {"SEG/SEX"};
-    public String vigencia = "22/01/2016";
+    public String vigencia = "01/06/2017";
 
     public List<horario> segSexI() {
         List<horario> lst = new ArrayList<>();
         lst.add(new horario("TERMINAL"));
         lst.add(new horario("06:35"));
-        lst.add(new horario("07:25"));
+        lst.add(new horario("07:30"));
 
         return lst;
     }

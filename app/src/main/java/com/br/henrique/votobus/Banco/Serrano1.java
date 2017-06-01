@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class Serrano1 {
     public String[] diasemanda = {"SEG/SEX", "SABADO", "DOMINGO"};
-    public String vigencia = "25/07/2016";
+    public String vigencia = "01/06/2017";
 
     public List<horario> segSexI() {
         List<horario> lst = new ArrayList<>();
@@ -47,7 +47,7 @@ public class Serrano1 {
         lst.add(new horario("17:55"));
         lst.add(new horario("18:15"));
         lst.add(new horario("18:35"));
-        lst.add(new horario("18:55"));
+        lst.add(new horario("19:00"));
         lst.add(new horario("19:25"));
         lst.add(new horario("20:00"));
         lst.add(new horario("21:00"));
